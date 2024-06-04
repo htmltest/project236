@@ -1,0 +1,13 @@
+.phlebodia {position:fixed; z-index:98; right:-10px; top:50%; width:70px; transform:translateY(-50%); transition:right 0.2s}
+.phlebodia:hover {right:0}
+.phlebodia img {display:block; width:100%}
+.phlebodia img+img {display:none}
+
+@media (max-width:1330px) {
+    .phlebodia {width:39px; right:0}
+    .phlebodia img {display:none}
+    .phlebodia img+img {display:block}
+}
+
+.improvement .list .item .text a {color: #fff; text-decoration: underline; -webkit-transition: color .3s; -o-transition: color .3s; transition: color .3s;}
+.improvement .list .item .text a:hover {color: var(--primary); }
